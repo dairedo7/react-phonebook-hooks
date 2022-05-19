@@ -6,7 +6,6 @@ import ContactList from './components/ContactList/ContactList.js';
 import Filter from './components/Filter/Filter';
 // import { useEffect } from 'react/cjs/react.production.min';
 import useLocalStorage from 'components/hooks/useLocalStorage';
-import React, { useMemo } from 'react';
 const defaultContacts = [
   { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
   { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
